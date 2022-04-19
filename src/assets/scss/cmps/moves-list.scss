@@ -1,0 +1,27 @@
+.moves-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    min-height: 400px;
+    border-radius: 10px;
+
+    h3 {
+        font-size: 15px;
+        background-color: #fff;
+
+
+        &.title {
+            font-size: 24px;
+            font-weight: 600;
+            padding: 10px;
+            border-bottom: 1px solid $clr7;
+        }
+    }
+
+    .move {
+        padding: 10px;
+        border-bottom: 1px solid $clr7;
+
+    }
+}

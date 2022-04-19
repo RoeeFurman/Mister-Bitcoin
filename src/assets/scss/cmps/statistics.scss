@@ -1,0 +1,19 @@
+.statistics {
+    >* {
+        margin-top: 20px;
+    }
+
+    .chart {
+        // background-color: $clr9;
+
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: $clr6;
+        color: white;
+        padding: 5px;
+        margin-left: 10px;
+        width: 100px;
+    }
+}

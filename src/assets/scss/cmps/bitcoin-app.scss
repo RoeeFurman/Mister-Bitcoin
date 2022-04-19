@@ -1,0 +1,113 @@
+.bitcoin-app {
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: $clr9;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.59);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        margin-right: 10px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        background-color: $clr7;
+        font-size: 24px;
+        padding: 8px;
+        text-align: left;
+        border-radius: 8px;
+
+        &.name {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            background-color: #fff;
+            margin-top: 0px;
+        }
+    }
+
+    img {
+        height: 200px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50%;
+
+        &.details {
+            margin-top: 20px;
+        }
+
+    }
+
+    button {
+        margin-top: 20px;
+        width: 200px;
+        padding: 5px;
+        border-radius: 6px;
+        font-size: 20px;
+        font-weight: 600;
+        transition: all .3s;
+        height: 40px;
+
+        &:hover {
+            background-color: $clr4;
+            color: $clr10;
+            border: 1px solid white;
+            font-weight: 400;
+        }
+
+    }
+
+    span {
+        font-weight: 600;
+    }
+}
+
+.contacts {
+    text-align: center;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    line-height: 25px;
+    vertical-align: middle;
+
+    .add-btn {
+        background-color: rgba(255, 255, 255, 0.495);
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        height: 40px;
+        align-self: center;
+        font-size: 20px;
+        font-weight: 600;
+        flex-basis: 20%;
+        transition: all .3s;
+
+        &:hover {
+            background-color: $clr6;
+            color: $clr10;
+            border: 1px solid black;
+        }
+    }
+
+    .sec-header {
+        display: flex;
+        justify-content: space-between;
+
+        >* {
+            line-height: 40px;
+        }
+    }
+}
+
+.about {
+    .about-img {
+        margin: 25px;
+        height: 200px;
+        float: right;
+        border-radius: 5%;
+    }
+}
