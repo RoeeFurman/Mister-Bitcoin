@@ -1,0 +1,3 @@
+# https://www.contactstxt.org/contactstxt.html
+User-agent: *
+Disallow:
